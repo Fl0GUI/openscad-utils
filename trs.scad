@@ -3,7 +3,7 @@ module translate_x(x) {
 }
 
 module translate_y(y) {
-  translate([0,x,0]) children();
+  translate([0,y,0]) children();
 }
 
 module translate_z(z) {
